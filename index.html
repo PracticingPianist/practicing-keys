@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <script src="chordinfojs.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+	<input type="hidden" id="options" value='["C Major","G Major","D Major","A Major","E Major","B Major","F Sharp Major","C Sharp Major","F Major","B Flat Major","E Flat Major","A Flat Major","D Flat Major","G Flat Major","C Flat Major"]'>
+    <div style="display: flex;">
+	
+	<div class="option-container">
+		<div class="option-column">
+		  <div class="title">Major</div>
+			<div style="width: 200px;">
+			<div class="option" onclick="toggleOption(event)">C Major</div>
+			<div class="option" onclick="toggleOption(event)">G Major</div>
+			<div class="option" onclick="toggleOption(event)">D Major</div>
+			<div class="option" onclick="toggleOption(event)">A Major</div>				<div class="option" onclick="toggleOption(event)">E Major</div>
+			<div class="option" onclick="toggleOption(event)">B Major</div>
+			<div class="option" onclick="toggleOption(event)">F Sharp Major</div>
+			<div class="option" onclick="toggleOption(event)">C Sharp Major</div>
+			<div class="option" onclick="toggleOption(event)">F Major</div>
+			<div class="option" onclick="toggleOption(event)">B Flat Major</div>
+			<div class="option" onclick="toggleOption(event)">E Flat Major</div>
+			<div class="option" onclick="toggleOption(event)">A Flat Major</div>
+			<div class="option" onclick="toggleOption(event)">D Flat Major</div>
+			<div class="option" onclick="toggleOption(event)">G Flat Major</div>
+			<div class="option" onclick="toggleOption(event)">C Flat Major</div>
+			</div>
+		  </div>
+		<div class="option-column">
+		  <div class="title">Minor</div>
+			<div style="width: 200px;">
+
+
+
+			</div>
+		</div>
+	</div>
+	  
+      <div>
+        <button onclick="displayText()">Randomize Scale</button>
+		<p id="text"></p>
+		
+        <div id="information-C-Major" class="information">
+          <p>This is information for option one.</p>
+          <img src=".\scales\cmajor.jpg" height=50% width=90%>
+		  <p>This is more info for testing purposes.</p>
+        </div>
+		
+        <div id="information-G-Major" class="information">
+          <p>This is information for option two.</p>
+          <img src=".\scales\gmajor.jpg" height=50% width=90%>
+        </div>
+		
+        <div id="information-D-Major" class="information">
+          <p>This is information for option three.</p>
+          <img src=".\scales\dmajor.jpg" height=50% width=90%>
+        </div>
+
+		<div id="information-A-Major" class="information">
+          <p>This is information for option one.</p>
+          <img src=".\scales\amajor.jpg" height=50% width=90%>
+        </div>
+		
+        <div id="information-E-Major" class="information">
+          <p>This is information for option two.</p>
+          <img src=".\scales\emajor.jpg" height=50% width=90%>
+        </div>
+		
+        <div id="information-B-Major" class="information">
+          <p>This is information for option three.</p>
+          <img src=".\scales\bmajor.jpg" height=50% width=90%>
+        </div>
+		
+		<div id="information-F-Sharp-Major" class="information">
+          <p>This is information for option one.</p>
+          <img src=".\scales\fsharpmajor.jpg" height=50% width=90%>
+        </div>
+		
+        <div id="information-C-Sharp-Major" class="information">
+          <p>This is information for option two.</p>
+          <img src=".\scales\csharpmajor.jpg" height=50% width=90%>
+        </div>
+		
+        <div id="information-F-Major" class="information">
+          <p>This is information for option three.</p>
+          <img src=".\scales\fmajor.jpg" height=50% width=90%>
+        </div>
+		
+		<div id="information-B-Flat-Major" class="information">
+          <p>This is information for option one.</p>
+          <img src=".\scales\bflatmajor.jpg" height=50% width=90%>
+        </div>
+		
+        <div id="information-E-Flat-Major" class="information">
+          <p>This is information for option two.</p>
+          <img src=".\scales\eflatmajor.jpg" height=50% width=90%>
+        </div>
+		
+        <div id="information-A-Flat-Major" class="information">
+          <p>This is information for option three.</p>
+          <img src=".\scales\aflatmajor.jpg" height=50% width=90%>
+        </div>
+				
+        <div id="information-D-Flat-Major" class="information">
+          <p>This is information for option three.</p>
+          <img src=".\scales\dflatmajor.jpg" height=50% width=90%>
+        </div>
+				
+        <div id="information-G-Flat-Major" class="information">
+          <p>This is information for option three.</p>
+          <img src=".\scales\gflatmajor.jpg" height=50% width=90%>
+        </div>
+				
+        <div id="information-C-Flat-Major" class="information">
+          <p>This is information for option three.</p>
+          <img src=".\scales\cflatmajor.jpg" height=50% width=90%>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
