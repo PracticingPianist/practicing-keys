@@ -1,16 +1,23 @@
 body {
+  background-image: url('notesbg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #f2f2f2;
   font-family: Arial, sans-serif;
   color: #333;
 }
 
 .option {
+  outline-color: purple;
+  outline-style: ridge;
+  background-color: #CBC3E3;
   width: 55%;
   padding: 1px;
   border: 1px solid #ddd;
   border-radius: 5px;
   cursor: pointer;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .option:hover {
@@ -66,7 +73,9 @@ button {
 */
 
 .randomize-scale {
-  background-color: #333;
+  background-color: #A569BD;
+  outline-color: purple;
+  outline-style: ridge;
   color: #fff;
   border: none;
   border-radius: 5px;
