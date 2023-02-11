@@ -5,7 +5,7 @@ body {
 }
 
 .option {
-  width: 50%;
+  width: 55%;
   padding: 1px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -20,6 +20,7 @@ body {
 .selected {
 	background-color: gray
 }
+
 .information {
   display: none;
   padding: 20px;
@@ -31,11 +32,40 @@ body {
   text-align: center;
 }
 
+.chordInformation {
+	display: none;
+}
+
 img {
 
 }
 
+/*
 button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+*/
+
+.randomize-scale {
   background-color: #333;
   color: #fff;
   border: none;
@@ -50,17 +80,6 @@ button:hover {
   background-color: #444;
 }
 
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: lightblue;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  text-align: center;
-  cursor: pointer;
-}
-
 #text {
   margin-top: 20px;
   text-align: center;
@@ -68,15 +87,15 @@ button:hover {
 
 .option-container {
     display: flex;
-    flex-wrap: wrap;
-	overflow: auto;
+	width: 480px;
   }
-  .option-column {
-    width: 35%;
-    text-align: center;
+.option-column {
+    width: 150px;
+    text-align: left;
+	flex-shrink: 0;
   }
   
-  .title {
+.title {
     font-weight: bold;
     text-align: left;
     margin-bottom: 10px;
